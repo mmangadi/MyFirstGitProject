@@ -57,3 +57,6 @@ Lets Start the Git step by step
 	
 7. Working directory -> staging area -> commit
 	when we do any changes to the code initially changes will be there in only working directory -> we to add it to staging area using git add <filename> -> git commit
+
+8. If we want skip the staging and directly commit we can use below command
+	git commit -a-m "message"
