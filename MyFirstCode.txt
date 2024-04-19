@@ -1,1 +1,9 @@
 Hello World
+Lets Start the Git step by step
+1. configuration
+	PS C:\Users\Manjunath> git config --global user.name "Manjunath"
+	PS C:\Users\Manjunath> git config --global user.email "manjunath.angadi4846@gmail.com"
+	PS C:\Users\Manjunath> git config --global --list
+	user.name=Manjunath
+	user.email=manjunath.angadi4846@gmail.com
+	PS C:\Users\Manjunath>
