@@ -81,3 +81,21 @@ Lets Start the Git step by step
     +9. 
     \ No newline at end of file
     :
+
+10. How to check the difference when we move the changes from working directory to stagging
+    use git diff --staged
+    Ex: D:\MyFirstGitProject>git diff --staged
+    diff --git a/MyFirstCode.txt b/MyFirstCode.txt
+    index ce26a84..4dc7741 100644
+    --- a/MyFirstCode.txt
+    +++ b/MyFirstCode.txt
+    @@ -80,4 +80,7 @@ Lets Start the Git step by step
+        +
+        +9.
+        \ No newline at end of file
+    -    :
+    \ No newline at end of file
+    +    :
+    +
+    +10. How to check the difference when we move the changes from working directory to stagging
+    +    use git diff --staged
