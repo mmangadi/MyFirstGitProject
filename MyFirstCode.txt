@@ -63,3 +63,21 @@ Lets Start the Git step by step
     Ex: D:\MyFirstGitProject>git commit -a -m "skip the staging and commit"
     [main 039b3f4] skip the staging and commit
     1 file changed, 3 insertions(+)
+
+9. To check changes made we can use below command
+    D:\MyFirstGitProject>git diff 
+    diff --git a/MyFirstCode.txt b/MyFirstCode.txt
+    index 0b21e0b..0a94406 100644
+    --- a/MyFirstCode.txt
+    +++ b/MyFirstCode.txt
+    @@ -62,4 +62,6 @@ Lets Start the Git step by step
+            git commit -a-m "message"
+        Ex: D:\MyFirstGitProject>git commit -a -m "skip the staging and commit"
+        [main 039b3f4] skip the staging and commit
+    -    1 file changed, 3 insertions(+)
+    \ No newline at end of file
+    +    1 file changed, 3 insertions(+)
+    +
+    +9. 
+    \ No newline at end of file
+    :
