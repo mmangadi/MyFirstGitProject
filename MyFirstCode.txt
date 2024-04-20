@@ -110,3 +110,7 @@ Lets Start the Git step by step
             deleted:    GITCHEATSHEET.txt
             modified:   MyFirstCode.txt
             new file:   Readme.md
+
+12. Git remove committed file from git and keep it working direcory
+    D:\MyFirstGitProject>git rm --cached Creds.txt
+    rm 'Creds.txt'
