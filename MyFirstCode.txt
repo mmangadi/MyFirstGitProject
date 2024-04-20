@@ -100,4 +100,13 @@ Lets Start the Git step by step
     +10. How to check the difference when we move the changes from working directory to stagging
     +    use git diff --staged
 
-11. 
+11. Git add all files command
+    D:\MyFirstGitProject>git add .
+    D:\MyFirstGitProject>git status
+    On branch main
+    Changes to be committed:
+    (use "git restore --staged <file>..." to unstage)
+            new file:   Creds.txt
+            deleted:    GITCHEATSHEET.txt
+            modified:   MyFirstCode.txt
+            new file:   Readme.md
