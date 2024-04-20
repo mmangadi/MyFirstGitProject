@@ -99,3 +99,5 @@ Lets Start the Git step by step
     +
     +10. How to check the difference when we move the changes from working directory to stagging
     +    use git diff --staged
+
+11. 
