@@ -114,3 +114,11 @@ Lets Start the Git step by step
 12. Git remove committed file from git and keep it working direcory
     D:\MyFirstGitProject>git rm --cached Creds.txt
     rm 'Creds.txt'
+
+13. How to move local repository to github
+    create a repository in github -> copy the url
+    PS D:\MyFirstGitProject> git remote add origin https://github.com/mmangadi/MyFirstGitProject.git
+    PS D:\MyFirstGitProject> git remote -v
+    origin  https://github.com/mmangadi/MyFirstGitProject.git (fetch)
+    origin  https://github.com/mmangadi/MyFirstGitProject.git (push)
+    PS D:\MyFirstGitProject> git push origin main
